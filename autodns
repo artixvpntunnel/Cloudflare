@@ -22,12 +22,12 @@ echo $SUB_DOMAIN > /root/subdomain  #save subdomain
 
 DOMAIN=drivereurope.online
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c6)
-SUB_DOMAIN=${sub}.drivereurope.online
-CF_ID=wilmanelson.rt@gmail.com
-CF_KEY=3206deacd1204afa426033544181c6b6051e6
+SUB_DOMAIN=${sub}.voltageprotect.site
+CF_ID=kentlouiepitogo675@gmail.com
+CF_KEY=b422b57b7454f479444b117f64ab5a38f6430
 
 
-NS_DOMAIN=mtkdev-${SUB_DOMAIN}
+NS_DOMAIN=artixvpn-${SUB_DOMAIN}
 
 
 set -euo pipefail
