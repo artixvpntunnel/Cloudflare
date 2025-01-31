@@ -20,14 +20,14 @@ apt install jq curl -y
 echo $NS_DOMAIN > /root/ns.txt
 echo $SUB_DOMAIN > /root/subdomain  #save subdomain
 
-DOMAIN=drivereurope.online
+DOMAIN=voltageprotect.site
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c6)
 SUB_DOMAIN=${sub}.voltageprotect.site
 CF_ID=kentlouiepitogo675@gmail.com
 CF_KEY=b422b57b7454f479444b117f64ab5a38f6430
 
 
-NS_DOMAIN=artixvpn-${SUB_DOMAIN}
+NS_DOMAIN=uniquehub-${SUB_DOMAIN}
 
 
 set -euo pipefail
